@@ -25,9 +25,12 @@ export default {
   data() {
     return {
       menu: [
-        { id: 1, name: "ชุดหมูสไลด์", description: "หมูสไลด์บางนุ่ม ละลายในปาก", price: 199, image: "https://via.placeholder.com/400x250?text=หมูสไลด์" },
-        { id: 2, name: "ชุดเนื้อวัวพรีเมียม", description: "เนื้อวัวเกรดพรีเมียม สดใหม่ทุกวัน", price: 299, image: "https://via.placeholder.com/400x250?text=เนื้อวัว" },
-        { id: 3, name: "ชุดทะเลรวม", description: "กุ้ง หมึก หอย ครบชุด สดจากทะเล", price: 249, image: "https://via.placeholder.com/400x250?text=ซีฟู้ด" }
+         { id: 1, name: "เตา", description: "-", price: 199, image: "https://down-th.img.susercontent.com/file/f6be4b6742343613510d032d4479cdcc" },
+        { id: 2, name: "ตู้", description: "-", price: 299, image: "https://tse4.mm.bing.net/th/id/OIP.vahvlvOpB_HI2R0SwU6o4gHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" },
+        { id: 3, name: "นํ้า", description: "-", price: 249, image: "https://tse3.mm.bing.net/th/id/OIP.aIS0vXt6QSvnrcNMYHqclQHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" },
+        { id: 1, name: "เต้าหู", description: "-", price: 199, image: "https://www.gourmetandcuisine.com/Images/editor_upload/_editor20211005010859_original.jpg" },
+        { id: 2, name: "ชุดซ้อนส้อม", description: "-", price: 299, image: "https://down-th.img.susercontent.com/file/9636d750b6989c874ffdc0259f52ea08" },
+        { id: 3, name: "ป่า", description: "-", price: 249, image: "https://tse2.mm.bing.net/th/id/OIP.wRdyTWpmfLmasSDscvpCOwHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" }
       ]
     };
   }
