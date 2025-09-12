@@ -21,7 +21,7 @@
             <li><a class="dropdown-item" href="#">Log In</a></li>
             <li><a class="dropdown-item" href="#">Log Out</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Sigh In</a></li>
+            <li><a class="dropdown-item" href="/add_customer">Sigh In</a></li>
           </ul>
         </li>
        <li class="nav-item">
