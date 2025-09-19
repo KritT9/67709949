@@ -1,7 +1,10 @@
 <template>
   <section id="menu" class="py-5">
+     <div class="container mb-3">
+      <a class="btn btn-primary" href="/add_product" role="button">Add+</a>
+    </div>
     <div class="container">
-      <h2 class="text-center mb-4 fw-bold">เมนูแนะนำ</h2>
+      <h2 class="text-center mb-4 fw-bold">ของแนะนำ</h2>
       <div class="row g-4">
         <div class="col-md-4" v-for="item in menu" :key="item.id">
           <div class="card h-100 shadow-sm">
@@ -11,6 +14,7 @@
               <p class="card-text text-muted">{{ item.description }}</p>
               <p class="fw-bold text-danger">{{ item.price }} บาท</p>
               <button class="btn btn-outline-danger btn-sm">สั่งเลย</button>
+              
             </div>
           </div>
         </div>
