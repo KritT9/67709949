@@ -5,6 +5,7 @@
     <h3>Information Technology</h3>
     <h4>Hi Good Morning</h4>
 
+
     <div class="alert alert-primary" role="alert">
   A simple primary alert—check it out!
 </div>
@@ -18,6 +19,7 @@
 </template>
 <script>
 import Menu from '../components/Menu.vue'
+
 
 export default {
   components: {

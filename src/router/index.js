@@ -7,6 +7,8 @@ import Customer from "../views/customer.vue";
 import addCustomer from "../views/add_customer.vue";
 import addProduct from "../views/add_product.vue";
 import Product from "../views/product.vue";
+import Student from "../views/Student.vue";
+import addStudent from "../views/add_student.vue";
 
 
 
@@ -18,7 +20,9 @@ const routes = [
   { path: "/customer", name: "customer", component: Customer},
   { path: "/add_customer", name: "add_customers", component: addCustomer},
   { path: "/product", name: "product", component: Product},
-  { path: "/add_product", name: "add_product", component: addProduct}
+  { path: "/add_product", name: "add_product", component: addProduct},
+  { path: "/Stud", name: "Stud", component: Student},
+  { path: "/add_Stud", name: "add_Stud", component: addStudent}
 ]
 
 const router = createRouter({
