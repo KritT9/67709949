@@ -9,7 +9,9 @@ import addProduct from "../views/add_product.vue";
 import Product from "../views/product.vue";
 import Student from "../views/Student.vue";
 import addStudent from "../views/add_student.vue";
-
+import CustomerEdit from "../views/customer_edit.vue";
+import ProductEdit from "../views/product_edit.vue";
+import StudentEdit from "../views/Student_edit.vue";
 
 
 const routes = [
@@ -22,7 +24,11 @@ const routes = [
   { path: "/product", name: "product", component: Product},
   { path: "/add_product", name: "add_product", component: addProduct},
   { path: "/Stud", name: "Stud", component: Student},
-  { path: "/add_Stud", name: "add_Stud", component: addStudent}
+  { path: "/add_Stud", name: "add_Stud", component: addStudent},
+  { path: "/customer_edit", name: "customer_edit", component: CustomerEdit},
+  { path: "/product_edit", name: "product_edit", component: ProductEdit},
+  {path: "/student_edit", name: "student_edit", component: StudentEdit}
+
 ]
 
 const router = createRouter({

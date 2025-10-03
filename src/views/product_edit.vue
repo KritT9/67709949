@@ -29,8 +29,8 @@
             <img :src="'http://localhost:8081/67709949/api_php/uploads/' + product.image" width="100" />
           </td>
           <td>
-            <button class="btn btn-warning btn-sm me-2" @click="openEditModal(product)">แก้ไข</button>
-            <button class="btn btn-danger btn-sm" @click="deleteProduct(product.product_id)">ลบ</button>
+            <button class="btn btn-warning btn-sm me-2" @click="openEditModal(product)"><i class="fa-solid fa-user-pen"></i></button>
+            <button class="btn btn-danger btn-sm" @click="deleteProduct(product.product_id)"><i class="fa-solid fa-trash"></i></button>
           </td>
         </tr>
       </tbody>
