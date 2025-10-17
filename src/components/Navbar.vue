@@ -54,6 +54,15 @@
               <li><a class="dropdown-item" href="/student_edit">student edit</a></li>
             </ul>
           </li>
+                    <li class="nav-item dropdown" @click="toggleDropdown('employee')">
+            <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
+              Employee
+            </a>
+            <ul class="dropdown-menu" :class="{'show': dropdowns.employee}">
+              <li><a class="dropdown-item" href="/Emp">Employee</a></li>
+              <li><a class="dropdown-item" href="/Emp_edit">Employee Edit</a></li>
+            </ul>
+          </li>
           
           <li class="nav-item">
             <a class="nav-link" href="/about">About</a>
@@ -79,7 +88,8 @@ export default {
         signIn: false,
         customer: false,
         product: false,
-        student: false
+        student: false,
+        employee: false
       }
     };
   },
@@ -90,6 +100,7 @@ export default {
       this.dropdowns.customer = false;
       this.dropdowns.product = false;
       this.dropdowns.student = false;
+      this.dropdowns.employee = false;
 
       // Toggle the clicked dropdown
       this.dropdowns[dropdown] = !this.dropdowns[dropdown];

@@ -12,6 +12,9 @@ import addStudent from "../views/add_student.vue";
 import CustomerEdit from "../views/customer_edit.vue";
 import ProductEdit from "../views/product_edit.vue";
 import StudentEdit from "../views/Student_edit.vue";
+import Emp from "../views/employee.vue";
+import addEmp from "../views/add_Emp.vue";
+import editEmp from "../views/employee_edit.vue";
 
 
 const routes = [
@@ -27,7 +30,10 @@ const routes = [
   { path: "/add_Stud", name: "add_Stud", component: addStudent},
   { path: "/customer_edit", name: "customer_edit", component: CustomerEdit},
   { path: "/product_edit", name: "product_edit", component: ProductEdit},
-  {path: "/student_edit", name: "student_edit", component: StudentEdit}
+  {path: "/student_edit", name: "student_edit", component: StudentEdit},
+  { path: "/Emp", name: "Emp", component: Emp},
+  { path: "/add_Emp", name: "add_Emp", component: addEmp},
+  { path: "/Emp_edit", name: "Emp_edit", component: editEmp}
 
 ]
 
