@@ -12,7 +12,8 @@
             :alt="product_name">
           <div class="card-body text-center">
             <h5 class="card-title">{{ product.product_name }}</h5>
-            <p class="card-text">{{ product.price }} บาท</p>
+            <p class="card-text"> {{ product.price }} บาท</p>
+            <p class="card-text">คงเหลือ {{ product.stock }} </p>
             <button class="btn btn-primary">สั่งซื้อ</button>
           </div>
         </div>
