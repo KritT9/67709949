@@ -1,6 +1,6 @@
 <template>
   <div class="container mt-4">
-    <h2 class="mb-3">รายชื่อลูกค้า</h2>
+    <h2 class="mb-3">รายการสินค้า</h2>
     
     <div class="mb-3">
       <a class="btn btn-primary" href="/add_product" role="button">Add+</a>
