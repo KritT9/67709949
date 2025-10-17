@@ -6,8 +6,8 @@
         <div class="card shadow-sm mb-4">
                       <img
             :src="'http://localhost:8081/67709949/api_php/uploads/' + product.image"
-            width="100"
-            height="150"
+            width="200"
+            height="250"
             class="card-img-top"
             :alt="product_name">
           <div class="card-body text-center">
