@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 17, 2025 at 09:11 PM
+-- Generation Time: Nov 07, 2025 at 02:50 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -33,7 +33,7 @@ CREATE TABLE `customers` (
   `lastName` varchar(50) NOT NULL,
   `phone` varchar(15) NOT NULL,
   `username` varchar(20) NOT NULL,
-  `password` varchar(20) NOT NULL,
+  `password` varchar(255) NOT NULL,
   `pv_id` int(3) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -43,7 +43,7 @@ CREATE TABLE `customers` (
 
 INSERT INTO `customers` (`customer_id`, `firstName`, `lastName`, `phone`, `username`, `password`, `pv_id`) VALUES
 (1, 'สมชาย', 'ใจดี', '0812345678', 'somchai', 'pass1234', NULL),
-(8, 'kritsada', 'boonprakong', '0971868490', 'Krit', '$2y$10$rjEPS5PVSUAq8', NULL);
+(8, 'kritsada', 'boonprakong', '0971868490', 'Krit', '$2y$10$iS1pX4/kwgO7NaD7G2dCWOCGHmVUIlyBvUX/3UjhApQ8D/ZYUSegi', NULL);
 
 -- --------------------------------------------------------
 
